@@ -1,0 +1,46 @@
+
+<!--
+Nombre: [Paul Andres Peley El Kadi]
+Curso: [Asir1]
+Fecha: [03/04/2025]
+Ejercicio: [Facturas]
+-->
+<!DOCTYPE factura SYSTEM "factura.dtd">
+
+<factura numero="F12345" fecha="2025-04-03">
+    <datos-emisor>
+        <nombre>Librería Central</nombre>
+        <cif>B12345678</cif>
+        <telefono>912345678</telefono>
+    </datos-emisor>
+
+    <datos-cliente>
+        <nombre>Biblioteca Municipal</nombre>
+        <cif>Q87654321</cif>
+        <telefono>987654321</telefono>
+    </datos-cliente>
+
+    <detalle-factura importe="240.00">
+
+      
+        <linea codigo-articulo="A001" tipo="Libro">
+            <descripcion>El Quijote</descripcion>
+            <cantidad>3</cantidad>
+            <pvp>20.00</pvp>
+            <oferta/>
+        </linea>
+
+        <linea codigo-articulo="A002" tipo="DVD">
+            <descripcion>Documental Historia</descripcion>
+            <cantidad>2</cantidad>
+            <pvp>25.00</pvp>
+        </linea>
+
+        <linea codigo-articulo="A003" tipo="Varios">
+            <descripcion>Marcadores fluorescentes</descripcion>
+            <cantidad>5</cantidad>
+            <pvp>5.00</pvp>
+        </linea>
+
+    </detalle-factura>
+</factura>

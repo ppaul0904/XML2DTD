@@ -1,0 +1,36 @@
+
+<!--
+Nombre: [Paul Andres Peley El Kadi]
+Curso: [Asir1]
+Fecha: [03/04/2025]
+-->
+
+<!DOCTYPE aeropuerto SYSTEM "aeropuerto.dtd">
+
+<aeropuerto>
+    <nombre>Madrid-Barajas Adolfo Suárez</nombre>
+    <fecha-panel>2025-04-03</fecha-panel>
+    <vuelos>
+        <vuelo codigo="IB1234" estado="E">
+            <origen>Madrid</origen>
+            <destino>París</destino>
+            <hora>08:30</hora>
+            <diario/>
+        </vuelo>
+
+        <vuelo codigo="VY4567" estado="R">
+            <origen>Barcelona</origen>
+            <destino>Londres</destino>
+            <hora>10:15</hora>
+        </vuelo>
+
+       
+        <vuelo codigo="UX8910" estado="C">
+            <origen>Valencia</origen>
+            <destino>Roma</destino>
+            <hora>12:45</hora>
+            <diario/>
+        </vuelo>
+
+    </vuelos>
+</aeropuerto>
